@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is visible.
+  </div>
+
+  <script>
+    // Incorrectly referencing a non-existent element by ID 
+    document.getElementByIdx('myDiv').innerHTML = "Text Changed!"; //Typo in getElementById
+  </script>
+</body>
+</html>
